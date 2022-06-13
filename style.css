@@ -8,6 +8,7 @@ p {
 }
 
 h2 {
+    /* margin-top: 50%; */
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +19,7 @@ h2 {
 
 ul {
     background-color: #f8f9fa;
-    position: fixed;
+    position: absolute;
     top: 150px;
     margin-right: auto;
     width: justify;
@@ -41,5 +42,6 @@ input {
     text-align: center;
     position: absolute;
     margin-left: 25%;
+    /* margin-top: 0%; */
     width: 40%;
 }
