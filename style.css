@@ -1,4 +1,4 @@
-p {
+/* p {
     text-align: justify;
     font-size: 1em*0.875;
     margin-left: 30%;
@@ -8,7 +8,7 @@ p {
 }
 
 h2 {
-    /* margin-top: 50%; */
+    margin-top: 50%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +39,7 @@ ul {
     line-height: 2.05;
     margin-left: 80%;
     margin-right: 0%;
-}
+} */
 
 details {
     visibility: hidden;
@@ -58,6 +58,58 @@ input {
     text-align: center;
     position: absolute;
     margin-left: 25%;
-    /* margin-top: 0%; */
     width: 40%;
+}
+
+#conteudo {
+    text-align: justify;
+    font-size: 1em*0.875;
+    margin-left: 30%;
+    margin-right: auto;
+    width: 40%;
+    font-family: sans-serif;
+}
+
+#titulo {
+    */ text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+#listaesquerda {
+    background-color: #f8f9fa;
+    position: absolute;
+    top: 150px;
+    float: left;
+    margin-right: auto;
+    width: justify;
+    font-family: sans-serif;
+    font-size: 0.75em;
+    line-height: 1.12;
+}
+
+#listadireita {
+    list-style-type: none;
+    background-color: #f8f9fa;
+    position: absolute;
+    top: 200px;
+    font-family: sans-serif;
+    font-size: 0.75em;
+    line-height: 2.05;
+    margin-left: 80%;
+    margin-top: 15%;
+}
+
+#imagemwiki {
+    position: absolute;
+    width: 200px;
+}
+
+#imagemconteudo {
+    position: absolute;
+    width: 200px;
+    margin-left: 76%;
+    margin-top: 10%;
 }
