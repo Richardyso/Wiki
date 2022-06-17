@@ -45,7 +45,7 @@ details {
     visibility: hidden;
 }
 
-/* imgz {
+/* img {
     position: absolute;
     width: 200px;
     margin-top: -30%;
@@ -71,7 +71,7 @@ input {
 }
 
 #titulo {
-    */ text-align: center;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
